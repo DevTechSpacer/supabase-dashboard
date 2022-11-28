@@ -9,6 +9,14 @@
       "path": "app"
     },
     {
+      "name": "web-component-app",
+      "path": "webapp"
+    },
+    {
+      "name": "todo-app",
+      "path": "todoapp"
+    },
+    {
       "name": "supabase-functions",
       "path": "supabase/functions"
     }
@@ -17,6 +25,7 @@
     "files.exclude": {
       "node_modules/": true,
       "app/": true,
+      "webapp/": true,
       "supabase/functions/": true
     },
     "git.terminalGitEditor": true
